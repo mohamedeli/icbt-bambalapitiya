@@ -1,1 +1,0 @@
-Shemalka nishen
