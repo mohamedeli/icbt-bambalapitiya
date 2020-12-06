@@ -1,1 +1,14 @@
+App\App.class
+App\process.class
 com\mycompany\mavenproject1\App.class
+newpackage2\App.class
+newpackage2\Dog.class
+package1\App.class
+com\mycompany\mavenproject1\Student.class
+db\MySQLUtils.class
+db\DBUtil.class
+newpackage2\Animal.class
+package1\Person.class
+db\OracleUtil.class
+newpackage2\Cat.class
+package1\Student.class

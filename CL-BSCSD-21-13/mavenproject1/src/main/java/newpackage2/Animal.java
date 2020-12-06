@@ -3,18 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package package1;
+package newpackage2;
 
 /**
  *
  * @author Mohamed Ali
  */
-public class App {
-    public static void main (String[] args) {
-        
-        Person[] persons = new Person[4];
-        
-        //Person[0] = new Student("ST01","John","Smith");
-        
-    }   
+public interface Animal {
+    public void move();
+    
+    public void consume();
+    
 }

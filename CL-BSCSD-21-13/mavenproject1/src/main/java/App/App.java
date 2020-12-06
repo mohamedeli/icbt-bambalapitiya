@@ -3,18 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package package1;
+package App;
 
+import db.DBUtil;
+import db.MySQLUtils;
 /**
  *
  * @author Mohamed Ali
  */
 public class App {
-    public static void main (String[] args) {
+    public static void main (String [] args){
+        DBUtil utl = new MySQLUtils();
         
-        Person[] persons = new Person[4];
-        
-        //Person[0] = new Student("ST01","John","Smith");
-        
-    }   
+        process p1 = new process();
+        p1.process(utl);
+    }
+    
 }
