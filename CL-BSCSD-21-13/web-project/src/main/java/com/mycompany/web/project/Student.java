@@ -10,12 +10,20 @@ package com.mycompany.web.project;
  * @author Mohamed Ali
  */
 public class Student {
-    private String id;
+     private String id;
     private String name;
     private String nic;
 
-    Student(String sT001, String john, String v) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Student() {
+        this.id = "";
+        this.name = "";
+        this.nic = "";
+    }
+
+    public Student(String id, String name, String nic) {
+        this.id = id;
+        this.name = name;
+        this.nic = nic;
     }
 
     public String getId() {

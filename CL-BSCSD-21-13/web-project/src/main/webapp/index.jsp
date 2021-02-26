@@ -20,7 +20,7 @@
         <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.js"></script>
     
         </script>
-        <title>JSP Page</title>
+        <title>index Page</title>
     </head>
     <body>
         <%
@@ -28,17 +28,16 @@
          out.print("<p>" + WebHelper.getgreeting() + "</p>");
          out.print("<br>");
          
-   
-         Student [] students = WebHelper.getStudent();
+         Student[] students = WebHelper.getStudent();
          
          out.print("<ul>");
          for(Student st : students) {
          out.print("<li>" + st.getName() + "</li>");
             }
          out.print("</ul>");
-         out.print("<br/>");
+         out.print("<br>");
          
-         out.print("<table border='1'");
+         out.print("<table border='1'>");
          out.print("<tr><th>Student ID</th><th>Name</th><th>NIC</th></tr>");
          
          for(Student st : students){
